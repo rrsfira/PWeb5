@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg5.jpg');
+    background-color: rgba(255, 255, 255, 0.233); /* Warna latar belakang dengan opacity (alpha) 0.5 */
+}
+header {
+        background-color: #f3cbde;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #fff; /* memberikan stroke hitam sebesar 1px */
+        -webkit-text-fill-color: #d499d1; /* mengisi teks dengan warna putih */
+        font-size: xx-large;
+        text-shadow: 2px 2px 4px #ff2d73e3; /* memberikan efek bayangan */
+}
+
+nav {
+    background-color: #aab8ce;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+    
+}
+section{    
+    padding: 20px;
+    margin: 100px;
+    background-color: #524d5a3a;
+    border-radius: 5px;
+    margin-bottom: 60px; /* Memberikan margin bawah sebesar 60px pada bagian kedua */
+    border-radius: 30px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 400px; /* Ubah lebar gambar sesuai kebutuhan Anda */
+    height: auto; /* Biarkan tinggi otomatis menyesuaikan proporsi gambar */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color: #ffffff;
+        -webkit-text-stroke: 1px #fff; /* memberikan stroke hitam sebesar 1px */
+        -webkit-text-fill-color: #ad1079; /* mengisi teks dengan warna putih */
+        font-size: xx-large;
+        text-shadow: 2px 2px 4px #ffafc9e3; /* memberikan efek bayangan */
+}
+
+section p {
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+    color: #624097;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+    gap: 20px; /* Jarak antar gambar */
+    width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #f3cbde;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
